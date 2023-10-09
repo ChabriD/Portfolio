@@ -5,49 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Connecting HTML and CSS -->
     <link rel="stylesheet" href="styles.css">
-    <link rel="about" href="About.html">
-    <link rel="portfolio" href="Portfolio.html">
-    <link rel="contact" href="contact.html">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <title>Chabri Manuel Portfolio</title>
 </head>
 
 <body>
+    <!--header and nav-->
+    <header>
+        <a href="index.html" class="logo">C.M.</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
 
-<header>
-
-    <a href="#home" class="logo">C.D.</a>
-
-    <nav class="navbar">
-        <a href="index.html" id ="home" class="btn">Home</a>
-        <a href="About.html" class="btn">About</a>
-        <a href="portfolio.html" class="btn">Portfolio</a>
-        <a href="contact.html" class="btn">Contact</a>
-    </nav>
-   
-</header>
-
-<div>
-    <h1>Chabri Duncan</h1>
-    <h3>Full Stack Software Engineer</h3>
     
-</div>
+    <!--Home Intro-->
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h5>Welcome, Welcome!</h5>
+            <h1>Chabri Manuel</h1>
+            <p>Software Engineer.</p>
+        </div>
 
 
+    </section>
 
-<footer>
+    <!--About Me Page-->
 
-    <p>Contact</p>
-    <ul>
-        <li><a></a>Email</li>
-        <li>Phone</li>
-        <li>Instagram</li>
-        <li>Github</li>
-        <li>Linkedin</li>
-    </ul>
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="./photo/zoom.PNG">
+        </div>
 
-</footer>
+        <div class="about-text">
+            <span>About Me</span>
+            <h2>Front-End Developement</h2>
+            <p> My name is Chabri Manuel. I decided to pursue my passion in Web Development in 2016. I attended Nucamp Bootcamp where I became certified in Frontend Web and Mobile Development. Currently furthering my education to become a Full Stack Software Engineer.
+            </p>
+            
 
+        </div>
+    </section>
 
+<!--Portfolio/ Project Section-->
 
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <span>My Work</span>
+            <h2>Projects</h2>
+
+        </div>
+
+        <div class="portfolio-container">
+            <div class="box box-one">
+                <div class="inner">
+                    <h6>Project 1</h6>
+                    <h3>Coming Soon</h3>
+                    <button type="button">View</button>
+                </div>
+            </div>
+
+            <div class="box box-two">
+                <div class="inner">
+                    <h6>Project 2</h6>
+                    <h3> Coming Soon</h3>
+                    <button type="button">View</button>
+                </div>
+            </div>
+
+            <div class="box box-three">
+                <div class="inner">
+                    <h6>Project 3</h6>
+                    <h3>Coming Soon</h3>
+                    <button type="button">View</button>
+                </div>
+            </div>
+
+            <div class="box box-four">
+                <div class="inner">
+                    <h6>Project 4</h6>
+                    <h3>Coming Soon</h3>
+                    <button type="button">View</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+<!--Contact Page-->
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <span>Contact Me</span>
+            <h2>Feel Free to reach out</h2>
+        </div>
+        <form>
+            <label>Name</label>
+            <input type="text" name="name" placeholder="First and Last Name">
+            <label>Email Address</label>
+            <input type="text" name="email" placeholder="Email">
+            <label>Message</label>
+            <textarea name="Message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn">
+        </form>
+        </div>
+
+    </section>
+
+<!--Footer Section-->
+
+   <footer>
+    <div class="bottom">
+        <ul>
+            <li><a href="mailto:fake@gmail.com">Email</a></li>
+            <li><a href="tel:555-5555">Phone</a></li>
+            <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+            <li><a href="https://www.github.com">Github</a></li>
+        </ul>
+    </div>
+</footer>  
+
+    
+    
 </body>
 </html>
